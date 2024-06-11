@@ -26,7 +26,6 @@ def plot_path(path):
     plt.ylabel('Y Coordinate')
     plt.show()
 
-# 직사각형 영역의 크기와 이동 간격 설정
 width, height, step = 10, 5, 1
 path = zigzag_path(width, height, step)
 plot_path(path)
