@@ -24,7 +24,6 @@ def plot_path(path):
     plt.ylabel('Y Coordinate')
     plt.show()
 
-# 원형 영역의 반지름과 이동 간격 설정
 radius, step = 10, 0.1
 path = spiral_path(radius, step)
 plot_path(path)
